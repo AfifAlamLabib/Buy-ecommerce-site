@@ -1,0 +1,378 @@
+/* ===================================
+     All responsive code start
+=====================================*/
+
+@media (max-width: 575.98px) {
+    /* =======================================================================================================================================
+                                                     home Page all responsive css code start 
+    ==========================================================================================================================================*/
+    body {
+        overflow-x: hidden;
+    }
+    /* Header part of home page start*/
+    #header .header_right {
+        display: none !important;
+        visibility: hidden;
+    }
+    /* Header part of home page end*/
+    .menubar .nav-item .nav-link {
+        padding-top: 30px;
+        text-align: center;
+    }
+    .menubar .nav-item .nav-link::after,
+    .menubar .nav-item .nav-link::before {
+        left: 20%;
+    }
+    #banner .banner_main .banner_text {
+        text-align: center;
+    }
+    #banner .banner_main {
+        background-size: auto;
+    }
+    #banner .banner_main::after {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+    #blog_home .blog_item_img .overlay .overlay_bottom {
+        display: none;
+        visibility: hidden;
+    }
+    /* Footer responsive css code start */
+    #footer h3 {
+        text-align: center;
+    }
+    #footer .footer_main .footer_item_one {
+        margin: 20px auto;
+    }
+    #footer .footer_main .footer_item_one .logo_footer {
+        text-align: center;
+    }
+    #footer .footer_main .footer_item_one p {
+        text-align: center;
+    }
+    #footer .footer_main .footer_item_two {
+        margin: 20px auto;
+    }
+    #footer .footer_main .footer_item_three {
+        margin: 30px auto;
+    }
+    #footer .footer_main .footer_item_three .links {
+        text-align: center;
+    }
+    #footer .footer_item_four {
+        margin: 30px auto;
+        text-align: center;
+    }
+    #footer .footer_item_four input {
+        width: 250px;
+    }
+    /* Footer responsive css code end */
+    /* =======================================================================================================================================
+                                                     home Page all responsive css code end 
+    ==========================================================================================================================================*/
+    /* =======================================================================================================================================
+                                                     About Page all responsive css code start 
+    ==========================================================================================================================================*/
+    #about_page_details .about_page_details_main .about_details_text {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: static;
+        margin: 0 auto;
+        padding: 33px;
+        color: white;
+        max-width: 100%;
+        text-align: justify;
+        margin-top: 20px;
+    }
+    #about_page_details .about_page_details_main .about_details_text p {
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #about_page_our_designers .designer_item {
+        width: 300px;
+        margin: 0 auto;
+    }
+    /* =======================================================================================================================================
+                                                     About Page all responsive css code end 
+    ==========================================================================================================================================*/
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    body {
+        overflow-x: hidden;
+    }
+    /* =======================================================================================================================================
+                                                     home Page all responsive css code start 
+    ==========================================================================================================================================*/
+    #header .header_left .nav-link {
+        font-size: 10px;
+        padding-right: 10px;
+    }
+    #header .header_right .head-links {
+        font-size: 10px;
+    }
+    #header .header_right .wishlist,
+    #header .header_right .myaccount,
+    #header .header_right .login {
+        padding: 5px;
+    }
+    #banner .banner_next {
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    #banner .banner_next {
+        right: 20%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+    }
+    #latest_shopping_part .latest_shopping_item {
+        width: 250px;
+    }
+    #latest_shopping_part .latest_shopping_item .latest_shopping_item_texts {
+        width: 200px;
+    }
+    #blog_home .blog_item_img .overlay .overlay_bottom {
+        display: none;
+        visibility: hidden;
+    }
+    /* Footer responsive css code start */
+    #footer h3 {
+        text-align: center;
+    }
+    #footer .footer_main .footer_item_one {
+        margin: 20px auto;
+    }
+    #footer .footer_main .footer_item_one .logo_footer {
+        text-align: center;
+    }
+    #footer .footer_main .footer_item_one p {
+        text-align: center;
+    }
+    #footer .footer_main .footer_item_two {
+        margin: 20px auto;
+    }
+    #footer .footer_main .footer_item_three {
+        margin: 30px auto;
+    }
+    #footer .footer_main .footer_item_three .links {
+        text-align: center;
+    }
+    #footer .footer_item_four {
+        margin: 30px auto;
+        text-align: center;
+    }
+    #footer .footer_item_four input {
+        width: 250px;
+    }
+    /* Footer responsive css code end */
+    /* =======================================================================================================================================
+                                                     home Page all responsive css code end 
+    ==========================================================================================================================================*/
+    /* =======================================================================================================================================
+                                                     About Page all responsive css code start 
+    ==========================================================================================================================================*/
+    #about_page_details .about_page_details_main .about_details_text {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: static;
+        padding: 33px;
+        color: white;
+        max-width: 100%;
+        text-align: justify;
+        margin-top: -60px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    #about_page_details .about_page_details_main .about_details_text p {
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    #about_page_our_designers .designer_item {
+        width: 250px;
+        margin: 0 auto;
+    }
+    /* =======================================================================================================================================
+                                                     About Page all responsive css code end 
+    ==========================================================================================================================================*/
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    body {
+        overflow-x: hidden;
+    }
+    /* =======================================================================================================================================
+                                                     home Page all responsive css code start 
+    ==========================================================================================================================================*/
+    #header .header_right .wishlist,
+    #header .header_right .myaccount,
+    #header .header_right .login {
+        padding: 0px;
+    }
+    .header_left .nav-link {
+        font-size: 10px;
+        padding-right: 10px;
+    }
+    .header_right .head-links {
+        font-size: 10px;
+    }
+    #blog_home .blog_item_img .overlay .overlay_bottom {
+        display: none;
+        visibility: hidden;
+    }
+    #latest_product_home .latest_product_main .latest_product_item {
+        width: 220px;
+    }
+    #latest_product_home .latest_product_main .latest_product_item ._latest_product_img {
+        width: 220px;
+    }
+    #blog_home .blog_item {
+        width: 300px;
+    }
+    #blog_home .blog_item_img {
+        width: 300px;
+    }
+    #blog_home .blog_item_img img {
+        width: 300px;
+    }
+    /* Footer responsive css code start */
+    #footer h3 {
+        text-align: center;
+    }
+    #footer .footer_main .footer_item_one {
+        margin: 20px auto;
+    }
+    #footer .footer_main .footer_item_one .logo_footer {
+        text-align: center;
+    }
+    #footer .footer_main .footer_item_one p {
+        text-align: center;
+    }
+    #footer .footer_main .footer_item_two {
+        margin: 20px auto;
+    }
+    #footer .footer_main .footer_item_three {
+        margin: 30px auto;
+    }
+    #footer .footer_main .footer_item_three .links {
+        text-align: center;
+    }
+    #footer .footer_item_four {
+        margin: 30px auto;
+        text-align: center;
+    }
+    #footer .footer_item_four input {
+        width: 250px;
+    }
+    /* Footer responsive css code end */
+    /* =======================================================================================================================================
+                                                     home Page all responsive css code end 
+    ==========================================================================================================================================*/
+    /* =======================================================================================================================================
+                                                     About Page all responsive css code start 
+    ==========================================================================================================================================*/
+    #about_page_details .about_page_details_main .about_details_text {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: static;
+        padding: 33px;
+        color: white;
+        max-width: 600px;
+        text-align: justify;
+        margin: -60px auto;
+    }
+    #about_page_details .about_page_details_main .about_details_text p {
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    /* =======================================================================================================================================
+                                                     About Page all responsive css code end 
+    ==========================================================================================================================================*/
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    body {
+        overflow-x: hidden;
+    }
+    /* =======================================================================================================================================
+                                                     home Page all responsive css code start 
+    ==========================================================================================================================================*/
+    #latest_shopping_part .latest_shopping_item {
+        width: 300px;
+    }
+    #latest_shopping_part .latest_shopping_item .latest_shopping_item_texts {
+        width: 250px;
+    }
+    #featured_product_part_home .featured_product_main .product_item {
+        width: 230px;
+    }
+    #featured_product_part_home .featured_product_main .product_item .product_img {
+        width: 230px;
+    }
+    /* Blog home page css code start */
+    #blog_home .blog_item {
+        width: 310px;
+    }
+    #blog_home .blog_item_img {
+        width: 310px;
+    }
+    #blog_home .blog_item_img img {
+        width: 310px;
+    }
+    /* Blog home page css code end */
+    /* Footer responsive css code start */
+    #footer .footer_main .footer_item_one {
+        width: 200px;
+    }
+    #footer .footer_main .footer_item_two {
+        width: 200px;
+    }
+    #footer .footer_main .footer_item_four input {
+        width: 200px;
+    }
+    #footer .footer_main .footer_item_four .follow_items {
+        margin-top: 20px;
+    }
+    #footer .footer_main .footer_item_four .follow_items h3 {
+        font-size: 18px;
+    }
+    #footer .footer_main .footer_item_four .follow_items i {
+        height: 30px;
+        width: 30px;
+        font-size: 15px;
+        margin: -4px;
+        padding: 0;
+        line-height: 30px;
+        text-align: center;
+    }
+    /* Footer responsive css code end */
+    /* =======================================================================================================================================
+                                                     home Page all responsive css code end 
+    ==========================================================================================================================================*/
+    /* =======================================================================================================================================
+                                                     About Page all responsive css code start 
+    ==========================================================================================================================================*/
+    #about_page_details .about_page_details_main .about_details_text {
+        background-color: rgba(0, 0, 0, 0.9);
+        position: static;
+        color: white;
+        max-width: 600px;
+        text-align: justify;
+    }
+    #about_page_details .about_page_details_main .about_details_text p {
+        font-size: 13px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    /* =======================================================================================================================================
+                                                     About Page all responsive css code end 
+    ==========================================================================================================================================*/
+}
+
+@media (min-width: 1120px) and (max-width: 1399.98px) {}
+
+
+/* ===================================
+    All responsive code end
+=====================================*
